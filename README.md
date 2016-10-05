@@ -7,7 +7,7 @@ app.use(express.session([options]));
 
 options         参数的具体取值:
 
-key            :字符串,用于指定用来保存session的cookie名称,默认为coomect.sid.
+name           :字符串,用于指定用来保存session的cookie名称,默认为coomect.sid.
 
 store          :属性值为一个用来保存session数据的第三方存储对象.
 
